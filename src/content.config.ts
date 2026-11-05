@@ -12,7 +12,6 @@ const games = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/games' }),
   schema: z.object({
     title: z.string().min(1),
-    tagline: z.string().optional(),
     summary: z.string().min(1),
     genre: z.string().optional(),
     cover: z.string().optional(),           // 例: /images/new-game/cover.webp
@@ -24,6 +23,13 @@ const games = defineCollection({
       playTimeMinutes: z.number().int().positive().optional(),
       players: z.string().optional(),     // 例: 1人
       controls: z.array(z.string()).default([]),
+      notes: z.string().optional(),
+    }).optional(),
+    development: z.object({
+      engine: z.string().optional(),       // 例: Unity
+      languages: z.array(z.string()).default([]),  // 例: [C#]
+      period: z.string().optional(),       // 例: 2026年4月〜10月
+      team: z.string().optional(),         // 例: 3人
       notes: z.string().optional(),
     }).optional(),
     links: z.array(externalLink).default([]),

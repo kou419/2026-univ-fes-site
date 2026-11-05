@@ -1,6 +1,5 @@
 ---
 title: "suspenseless"
-tagline: "犯人になって、探偵を欺け。"
 summary: "犯人である主人公の視点から探偵と対決する推理ゲーム。現場での行動や証拠品の偽装によって物語が分岐します。"
 genre: "推理・ストーリー"
 accent: "cyan"

@@ -4,7 +4,6 @@ title: "新しいゲーム名"
 summary: "このゲームがどんな作品なのか、1〜2文で紹介します。"
 
 # 以下は任意です。不要な項目は行ごと削除できます。
-tagline: "一言キャッチコピー"
 genre: "アクション"
 accent: "cyan" # cyan / pink / orange / violet / lime
 order: 6
@@ -24,6 +23,15 @@ event:
     - "矢印キー：移動"
     - "Space：決定"
   notes: "混雑時は交代制でご案内します。"
+
+# 開発情報。不明な項目は削除してOK。
+development:
+  engine: "Unity"
+  languages:
+    - "C#"
+  period: "2026年4月〜10月"
+  team: "3人"
+  notes: "BGMはフリー素材を使用。"
 
 links:
   - label: "公式サイト"

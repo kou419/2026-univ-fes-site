@@ -27,7 +27,7 @@ npm run dev
 ## 新しいゲームを追加する
 
 1. `examples/new-game.md.example` を `src/content/games/your-game.md` にコピー。
-2. `title` と `summary` を編集。必要なら `tagline` / `genre` / `accent` を追加。
+2. `title` と `summary` を編集。必要なら `genre` / `accent` を追加。
 3. 画像があれば `public/images/your-game/` に置いて `cover` / `screenshots` に記載。
 4. 学祭の展示が決まったら `event` を入力。不要・未定の項目は消してかまいません。
 5. `npm run build` で確認。
@@ -52,7 +52,6 @@ summary: "簡単なゲーム紹介。"
 |---|---|---|
 | `title` | ○ | ゲーム名 |
 | `summary` | ○ | 一覧・詳細に表示する短い説明 |
-| `tagline` | - | キャッチコピー |
 | `genre` | - | ジャンル |
 | `cover` | - | メイン画像（`/images/...`） |
 | `video` | - | 詳細ページの動画。YouTubeのURLのみ。指定時は `cover` の代わりに表示 |
@@ -63,10 +62,15 @@ summary: "簡単なゲーム紹介。"
 | `event.players` | - | プレイ人数（例: `1人`） |
 | `event.controls` | - | 操作方法の配列 |
 | `event.notes` | - | 注意事項、混雑時の案内など |
+| `development.engine` | - | ゲームエンジン（例: `Unity`） |
+| `development.languages` | - | 実装言語の配列（例: `["C#"]`） |
+| `development.period` | - | 開発期間（例: `2026年4月〜10月`） |
+| `development.team` | - | 開発人数（例: `3人`） |
+| `development.notes` | - | 使用ツールなど開発に関する補足 |
 | `links` | - | 外部リンク（`label` / `url` の配列） |
 
 ゲーム説明や遊び方、特徴など長いテキストはMarkdownの本文に自由に書けます。
-公開作品の画像が未設定なら装飾プレースホルダーを表示し、`event` が未入力なら展示情報欄は表示しません。
+公開作品の画像が未設定なら装飾プレースホルダーを表示し、`event` が未入力なら展示情報欄は表示しません。`development` も同様です。
 
 ## GitHub Pages への公開
 

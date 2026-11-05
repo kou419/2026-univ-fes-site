@@ -13,9 +13,10 @@ export async function getStaticPaths() {
 
 const { game } = Astro.props as { game: CollectionEntry<'games'> };
 const { Content } = await render(game);
-const { title, tagline, summary, genre, cover, video, screenshots, accent, event, links } = game.data;
+const { title, summary, genre, cover, video, screenshots, accent, event, development, links } = game.data;
 const youtubeId = video?.match(youtubeUrl)?.[1];
 const hasEvent = !!event && !!(event.playTimeMinutes || event.players || event.controls.length || event.notes);
+const hasDevelopment = !!development && !!(development.engine || development.languages.length || development.period || development.team || development.notes);
 ---
 <BaseLayout title={`${title} | ${site.name}`} description={summary}>
   <div class="container section">
@@ -29,7 +30,6 @@ const hasEvent = !!event && !!(event.playTimeMinutes || event.players || event.c
       <div>
         {genre && <span class="chip">{genre}</span>}
         <h1 class="display" style="margin-top: 16px">{title}</h1>
-        {tagline && <p class="title-medium">{tagline}</p>}
         <p class="body-large">{summary}</p>
         <div class="prose"><Content /></div>
         {screenshots.length > 0 && (
@@ -50,6 +50,18 @@ const hasEvent = !!event && !!(event.playTimeMinutes || event.players || event.c
               {event?.players && <div><dt>プレイ人数</dt><dd>{event.players}</dd></div>}
               {event && event.controls.length > 0 && <div><dt>操作方法</dt><dd><ul>{event.controls.map((control) => <li>{control}</li>)}</ul></dd></div>}
               {event?.notes && <div><dt>補足</dt><dd class="preserve-newlines">{event.notes}</dd></div>}
+            </dl>
+          </section>
+        )}
+        {hasDevelopment && (
+          <section aria-labelledby="development-heading">
+            <h2 id="development-heading">開発情報</h2>
+            <dl class="list">
+              {development?.engine && <div><dt>ゲームエンジン</dt><dd>{development.engine}</dd></div>}
+              {development && development.languages.length > 0 && <div><dt>実装言語</dt><dd>{development.languages.join(' / ')}</dd></div>}
+              {development?.period && <div><dt>開発期間</dt><dd>{development.period}</dd></div>}
+              {development?.team && <div><dt>開発人数</dt><dd>{development.team}</dd></div>}
+              {development?.notes && <div><dt>補足</dt><dd class="preserve-newlines">{development.notes}</dd></div>}
             </dl>
           </section>
         )}

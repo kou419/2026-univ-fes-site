@@ -1,11 +1,9 @@
 ---
-title: "ポンコツmusica"
-tagline: "留年を回避するには、音ゲーで単位を取るしかない！？"
+title: "ポンコツmusica Re:めいく"
 summary: "教授から飛んでくるテストを音楽ゲームで切り抜けよう。シナリオに応じた特殊な条件や複数の難易度が登場します。"
 genre: "音楽ゲーム"
-accent: "pink"
+accent: "lime"
 order: 2
-# 表示確認用の仮データ（公開前に実際の内容へ差し替える）
 event:
   playTimeMinutes: 5
   players: "1人"
