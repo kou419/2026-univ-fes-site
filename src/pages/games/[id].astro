@@ -36,7 +36,7 @@ const hasDevelopment = !!development && !!(development.engine || development.lan
           <section aria-labelledby="screenshots-heading">
             <h2 id="screenshots-heading" class="headline" style="margin-top: 24px">スクリーンショット</h2>
             <div class="screenshots">
-              {screenshots.map((screenshot, i) => <a href={imageUrl(screenshot)} target="_blank" rel="noopener noreferrer"><img src={imageUrl(screenshot)} alt={`${title}のスクリーンショット ${i + 1}`} loading="lazy" /></a>)}
+              {screenshots.map((screenshot, i) => <img src={imageUrl(screenshot)} alt={`${title}のスクリーンショット ${i + 1}`} loading="lazy" />)}
             </div>
           </section>
         )}

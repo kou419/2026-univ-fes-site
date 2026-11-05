@@ -4,6 +4,7 @@ export function withBase(path = '/') {
   return `${base}/${path.replace(/^\/+/, '')}`;
 }
 
+/** `/public/images/...` 形式も `/images/...` として扱う。 */
 export function imageUrl(src: string) {
-  return /^https?:\/\//.test(src) ? src : withBase(src);
+  return /^https?:\/\//.test(src) ? src : withBase(src.replace(/^\/?public\//, '/'));
 }
