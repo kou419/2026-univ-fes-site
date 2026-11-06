@@ -1,5 +1,5 @@
 ---
-title: "ポンコツmusica Re:めいく"
+title: "海上の防衛隊"
 summary: ""
 genre: "2Dアクションゲーム"
 accent: "lime"
