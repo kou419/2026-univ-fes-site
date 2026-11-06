@@ -17,6 +17,6 @@ const { title, summary, genre, cover, accent } = game.data;
   <div class="card__body">
     <h3>{title}</h3>
     {genre && <p class="card__meta">{genre}</p>}
-    <p>{summary}</p>
+    {summary && <p>{summary}</p>}
   </div>
 </a>

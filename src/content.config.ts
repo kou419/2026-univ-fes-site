@@ -12,7 +12,7 @@ const games = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/games' }),
   schema: z.object({
     title: z.string().min(1),
-    summary: z.string().min(1),
+    summary: z.string().default(''),
     genre: z.string().optional(),
     cover: z.string().optional(),           // 例: /images/new-game/cover.webp
     video: z.string().regex(youtubeUrl, 'YouTubeのURLを指定してください').optional(),  // 例: https://youtu.be/xxxxxxxxxxx

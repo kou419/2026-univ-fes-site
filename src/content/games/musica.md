@@ -3,7 +3,7 @@ title: "ポンコツmusica Re:めいく"
 summary: "教授から飛んでくるテストを音楽ゲームで切り抜けよう。シナリオに応じた特殊な条件や複数の難易度が登場します。"
 genre: "音楽ゲーム"
 accent: "lime"
-order: 2
+order: 1
 # 画像・動画は未用意のため仮パスをコメントアウト。用意できたら有効化する。
 cover: "/images/musica/cover.png"
 video: "https://youtu.be/99zC42CP3gY?si=WWJgCaGP_LKpYfyG"
@@ -12,7 +12,7 @@ screenshots:
   - "/images/musica/musica01.png"
   - "/images/musica/musica02.png"
 event:
-  playTimeMinutes: 10
+  playTimeMinutes: 5
   players: "1人"
   controls:
     - "A / S / K / L：ノーツを叩く"
@@ -21,12 +21,12 @@ event:
   notes: "キー設定は変更されている可能性があります。事前に設定で確認してください。"
 # 開発情報は仮データ。公開前に実際の内容へ差し替える。
 development:
-  engine: "Unity"
+  engine: "不明"
   languages:
-    - "C#"
-  period: "2026年4月〜10月"
-  team: "3人"
-  notes: "BGMはフリー素材を使用。"
+    - "C++"
+  period: "不明"
+  team: "不明"
+  notes: "BGMはフリー素材・部員制作・Wine Red提供のものを使用"
 links:
   - label: "作品資料を見る"
     url: "https://g-2-yama.github.io/docs/games/musica"

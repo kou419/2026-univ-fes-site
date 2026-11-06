@@ -30,7 +30,7 @@ const hasDevelopment = !!development && !!(development.engine || development.lan
       <div>
         {genre && <span class="chip">{genre}</span>}
         <h1 class="display" style="margin-top: 16px">{title}</h1>
-        <p class="body-large">{summary}</p>
+        {summary && <p class="body-large">{summary}</p>}
         <div class="prose"><Content /></div>
         {screenshots.length > 0 && (
           <section aria-labelledby="screenshots-heading">
