@@ -4,7 +4,6 @@ summary: "教授から飛んでくるテストを音楽ゲームで切り抜け�
 genre: "音楽ゲーム"
 accent: "lime"
 order: 1
-# 画像・動画は未用意のため仮パスをコメントアウト。用意できたら有効化する。
 cover: "/images/musica/cover.png"
 video: "https://youtu.be/99zC42CP3gY?si=WWJgCaGP_LKpYfyG"
 screenshots:
@@ -19,7 +18,6 @@ event:
     - "Enter：決定"
     - "ESC: 戻る"
   notes: "キー設定は変更されている可能性があります。事前に設定で確認してください。"
-# 開発情報は仮データ。公開前に実際の内容へ差し替える。
 development:
   engine: "不明"
   languages:

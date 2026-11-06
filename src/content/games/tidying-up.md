@@ -4,7 +4,6 @@ summary: "おもちゃを転がし、導き、元の場所へ――"
 genre: "3Dアクションゲーム"
 accent: "lime"
 order: 2
-# 画像・動画は未用意のため仮パスをコメントアウト。用意できたら有効化する。
 cover: "/images/tidying-up/cover.png"
 video: "https://youtu.be/P-sySecHlyE?si=QV6UdnGCE0Fy5sAd"
 event:
