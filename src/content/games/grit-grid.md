@@ -3,7 +3,7 @@ title: "Grit Grid"
 summary: "爽快感のあるヴァンサバライクFPSです。"
 genre: "ヴァンサバライクFPSゲーム"
 accent: "lime"
-order: 12
+order: 2
 cover: "/images/grit-grid/cover.jpg"
 video: "https://youtu.be/a6Mea-8EBF8?si=V6F39PtgAX1_7t8K"
 event:
@@ -13,7 +13,7 @@ event:
     - "W / A / S / D：移動"
     - "マウス：視点移動"
     - "左クリック：左手武器による攻撃"
-    - "左クリック：右手武器による攻撃"
+    - "右クリック：右手武器による攻撃"
 development:
   engine: "Unity"
   languages:

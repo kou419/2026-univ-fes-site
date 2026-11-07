@@ -3,7 +3,7 @@ title: "Dulandal"
 summary: ""
 genre: "シューティングゲーム"
 accent: "lime"
-order: 4
+order: 9
 cover: "/images/dulandal/cover.png"
 video: "https://youtu.be/wXvWBtXi6L8?si=DtzceuEjxoTnFL_G"
 event:

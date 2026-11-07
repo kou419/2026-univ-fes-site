@@ -3,8 +3,7 @@ title: "ワンオペ寿司屋"
 summary: "寿司は回る。クレームは止まらない！ワンオペ店員となり、お皿を武器に押し寄せるクレーマーを撃退する2Dサバイバルアクション。"
 genre: "ヴァンサバライク2Dゲーム"
 accent: "lime"
-order: 8
-
+order: 1
 cover: "/images/one-op-sushi/cover.png"
 screenshots:
   - "/images/one-op-sushi/cover.png"

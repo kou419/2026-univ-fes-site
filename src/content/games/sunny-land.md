@@ -3,7 +3,7 @@ title: "Sunny Land"
 summary: ""
 genre: "2Dアクションゲーム"
 accent: "lime"
-order: 7
+order: 13
 cover: "/images/sunny-land/cover.png"
 video: "https://youtu.be/cRhdoqyzxLA?si=iI7DdnXhjpmiQlYW"
 event:

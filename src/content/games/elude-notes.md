@@ -3,7 +3,7 @@ title: "Elude Notes"
 summary: ""
 genre: "音楽ゲーム"
 accent: "lime"
-order: 5
+order: 8
 cover: "/images/elude-notes/cover.png"
 video: "https://youtu.be/SDwGjQmg5IU?si=UvtrLozFhr459Y4o"
 event:

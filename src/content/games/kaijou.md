@@ -3,7 +3,7 @@ title: "海上の防衛隊"
 summary: ""
 genre: "2Dアクションゲーム"
 accent: "lime"
-order: 3
+order: 17
 cover: "/images/kaijou/cover.png"
 video: "https://youtu.be/Xxsi-PSPpyM?si=AMOF0NSg8MCFHg66"
 event:

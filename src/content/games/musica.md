@@ -3,7 +3,7 @@ title: "ポンコツmusica Re:めいく"
 summary: "教授から飛んでくるテストを音楽ゲームで切り抜けよう。シナリオに応じた特殊な条件や複数の難易度が登場します。"
 genre: "音楽ゲーム"
 accent: "lime"
-order: 1
+order: 16
 cover: "/images/musica/cover.png"
 video: "https://youtu.be/99zC42CP3gY?si=WWJgCaGP_LKpYfyG"
 screenshots:

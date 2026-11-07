@@ -3,7 +3,7 @@ title: "ウェスタンチャレンジャー"
 summary: "爽快感のあるシューティングゲームです。"
 genre: "2Dシューティングゲーム"
 accent: "lime"
-order: 9
+order: 14
 cover: "/images/western-challenger/cover.png"
 video: "https://youtu.be/mW3NFOSeKIo?si=MssvYWZ5kvlNULGY"
 event:

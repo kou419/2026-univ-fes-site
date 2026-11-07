@@ -3,7 +3,7 @@ title: "music game"
 summary: "横向きに流れる音ゲーです。"
 genre: "音楽ゲーム"
 accent: "lime"
-order: 11
+order: 18
 cover: "/images/music-game/cover.png"
 video: "https://youtu.be/50I4ZXv0OAI?si=81o9mkpqS-HaDF--"
 event:

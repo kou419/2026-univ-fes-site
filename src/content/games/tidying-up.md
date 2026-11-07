@@ -3,7 +3,7 @@ title: "Tidying Up"
 summary: "おもちゃを転がし、導き、元の場所へ――"
 genre: "3Dアクションゲーム"
 accent: "lime"
-order: 2
+order: 3
 cover: "/images/tidying-up/cover.png"
 video: "https://youtu.be/P-sySecHlyE?si=QV6UdnGCE0Fy5sAd"
 event:
