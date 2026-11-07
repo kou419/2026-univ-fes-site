@@ -3,7 +3,7 @@ title: "たわ〜でぃふぇんす"
 summary: "シンプルなタワーディフェンスゲームです"
 genre: "タワーディフェンスゲーム"
 accent: "lime"
-order: 10
+order: 15
 cover: "/images/tower-defense/cover.png"
 video: "https://youtu.be/QeuVm3mHtHI?si=dWL_inH70JQaofzt"
 event:

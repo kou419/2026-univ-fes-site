@@ -3,7 +3,7 @@ title: "RecoloR"
 summary: ""
 genre: "ミニゲーム"
 accent: "cyan"
-order: 15
+order: 6
 cover: "/images/recolor/cover.gif"
 # video: ""
 event:

@@ -3,7 +3,7 @@ title: "Grit Grid"
 summary: "爽快感のあるヴァンサバライクFPSです。"
 genre: "ヴァンサバライクFPSゲーム"
 accent: "lime"
-order: 12
+order: 2
 cover: "/images/grit-grid/cover.jpg"
 video: "https://youtu.be/a6Mea-8EBF8?si=V6F39PtgAX1_7t8K"
 event:

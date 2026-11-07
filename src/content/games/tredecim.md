@@ -3,7 +3,7 @@ title: "Tredecim（文字クイズ）"
 summary: ""
 genre: "文字当てタイピングゲーム"
 accent: "cyan"
-order: 18
+order: 5
 cover: "/images/tredecim/cover.gif"
 # video: ""
 event:

@@ -3,7 +3,7 @@ title: "蝉 ～セミファイナル～"
 summary: ""
 genre: "ミニゲーム"
 accent: "cyan"
-order: 16
+order: 10
 cover: "/images/semi-final/cover.gif"
 # video: ""
 event:

@@ -3,7 +3,7 @@ title: "ワンオペ寿司屋"
 summary: ""
 genre: "ヴァンサバライクゲーム"
 accent: "lime"
-order: 8
+order: 1
 # cover: ""
 # video: ""
 event:

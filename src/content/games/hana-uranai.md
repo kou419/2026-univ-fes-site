@@ -3,7 +3,7 @@ title: "花うらない"
 summary: ""
 genre: "探索型ローグライクゲーム"
 accent: "cyan"
-order: 14
+order: 7
 cover: "/images/hana-uranai/cover.gif"
 # video: ""
 event:

@@ -3,7 +3,7 @@ title: "Slash Shooting"
 summary: ""
 genre: "2Dシューティングゲーム"
 accent: "lime"
-order: 6
+order: 12
 cover: "/images/slash-shooting/cover.png"
 video: "https://youtu.be/a2w6kI6I5-A?si=PjgMrbCfUubTeUZC"
 event:

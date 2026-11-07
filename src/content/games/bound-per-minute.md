@@ -3,7 +3,7 @@ title: "Bound Per Minute"
 summary: ""
 genre: "高難易度アクションゲーム"
 accent: "cyan"
-order: 13
+order: 4
 cover: "/images/bound-per-minute/cover.gif"
 # video: ""
 event:

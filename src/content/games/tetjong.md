@@ -3,7 +3,7 @@ title: "Tetjong (テトリス × 麻雀)"
 summary: ""
 genre: "落ち者パズルゲーム"
 accent: "cyan"
-order: 17
+order: 11
 cover: "/images/tetjong/cover.gif"
 # video: ""
 event:
